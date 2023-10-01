@@ -4,8 +4,8 @@
 //tc39.es/ecma262/#sec-white-space[global object, numbers and date]
 //mdn
 
-let name ="hitesh"
-let age = 18
+let name ="Priya"
+let age = 20
 let isLoggedIn = true
 let state
 /*
@@ -19,5 +19,5 @@ undefined => variable declared but havent defined
 symbol = unique 
 
 */
-console.log(typeof "hitesh");
+console.log(typeof "PRIYA");
 console.log(typeof null);
