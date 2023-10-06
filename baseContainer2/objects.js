@@ -14,19 +14,28 @@ const user ={ //object litral
 
 }
 
-console.log(user.studentName);
-console.log(user["lastName"]);
-console.log(user["email"]);
-console.log(user[mySym]);
+// console.log(user.studentName);
+// console.log(user["lastName"]);
+// console.log(user["email"]);
+// console.log(user[mySym]);
 
-user.email = "alexparker@gmail.com"
-console.log(user);
-Object.freeze(user)
-user.email = "alexparker@gmail.com"
-console.log(user);
+// user.email = "alexparker@gmail.com"
+// console.log(user);
+// Object.freeze(user)
+// user.email = "alexparker@gmail.com"
+// console.log(user);
 
+user.greeting = function (){
+    console.log("Hello Student");
+}
 
+console.log(user.greeting());
 
+user.Std_Greeting = function (){
+    console.log(`Hello Student, ${this.studentName}`);
+}
+
+console.log(user.Std_Greeting());
 
 
 
